@@ -1,0 +1,56 @@
+@mixin banner-dimensions($width, $height)
+  width: $width + ($bannersBorderWidth * 2)
+  height: $height + ($bannersBorderWidth * 2)
+
+.banner-c
+  margin: 0 auto
+.banner970x250
+  +banner-dimensions(970px, 250px)
+.banner300x600
+  +banner-dimensions(300px, 600px)
+.banner728x90
+  +banner-dimensions(728px, 90px)
+.banner728x200
+  +banner-dimensions(728px, 200px)
+.banner970x90
+  +banner-dimensions(970px, 90px)
+.banner160x600
+  +banner-dimensions(160px, 600px)
+.banner320x50
+  +banner-dimensions(320px, 50px)
+.banner300x50
+  +banner-dimensions(300px, 50px)
+.banner300x250
+  +banner-dimensions(300px, 250px)
+.banner225x554
+  +banner-dimensions(225px, 554px)
+.banner223x554
+  +banner-dimensions(223px, 554px)
+.banner128x537
+  +banner-dimensions(128px, 537px)
+.banner600x375
+  +banner-dimensions(600px, 375px)
+
+.banner-horizontal-2c
+  margin-left: -15px
+
+.banner-horizontal-3c
+  margin-left: -10px
+
+.banner-vertical
+  margin-left: 5px
+
+.banner
+  border: $bannersBorderWidth solid $grey1
+  position: relative
+
+  &::before
+    position: absolute
+    bottom: 0
+    right: 0
+    content: "Publicidad"
+    background-color: $grey1
+    color: $grey2
+    padding: 2px
+    z-index: 1000
+    font-size: 10px

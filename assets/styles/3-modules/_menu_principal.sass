@@ -1,0 +1,51 @@
+.menu-principal
+    +hidden-mobile()
+    padding: 3px 0
+    margin-bottom: 0px
+
+    .menu-item
+        a
+            display: block
+            content: ""
+        min-height: 52px
+        list-style: none
+
+ul.menu-principal > li
+    display: inline-block
+    &:nth-child(1n+2)
+        padding-left: 3.2px
+    a
+        color: transparent
+        -webkit-transition: all .2s ease-out
+        -moz-transition: all .2s ease-out
+        -o-transition: all .2s ease-out
+        transition: all .2s ease-out
+        pading-left: 3.2px
+        display: block
+        height: 52px
+        &:hover
+            border-bottom: 4px solid #FFF
+    &:nth-child(1) a
+        background: transparent url('../img/pol-sex.png') no-repeat
+        background-position-x: center
+        background-color: #ff0843
+    &:nth-child(2) a
+        background: transparent url('../img/eco-far.png') no-repeat
+        background-position-x: center
+        background-color: rgb(255,78,48)
+    &:nth-child(3) a
+        background: transparent url('../img/mun-dep.png') no-repeat
+        background-position-x: center
+        background-color: #ff9900
+    &:nth-child(4) a
+        background: transparent url('../img/cul-ser.png') no-repeat
+        background-position-x: center
+        background-color: #a0c519
+    &:nth-child(5) a
+        background: transparent url('../img/suc-tec.png') no-repeat
+        background-position-x: center
+        background-color: #33cccc
+    &:nth-child(6) a
+        background: transparent url('../img/vir-sal.png') no-repeat
+        background-position-x: center
+        background-color: #86c6e7

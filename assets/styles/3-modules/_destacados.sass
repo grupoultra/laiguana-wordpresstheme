@@ -1,0 +1,47 @@
+.destacado-item
+    .destacado-caption
+        height: 100px
+        color: #FFFFFF
+        background-color: #000000
+        padding: 10px
+        .destacado-title
+            margin: 0
+            padding: 0
+        .destacado-date
+            margin-bottom: 0px
+
+.destacado-title-a
+    color: #FFFFFF
+    font-family: 'folksbold'
+    line-height: 100%
+    text-decoration: none !important
+    border: 0 !important
+    opacity: 1
+    text-transform: uppercase
+    letter-spacing: 1px
+    font-size: 26px
+    &:hover
+        color: #DDD
+    @media (max-width: $desktop-break)
+        font-size: 14px
+
+.owl-carousel-destacados
+    padding-top: 0px
+    overflow: hidden
+    // @media (min-width: $desktop-break)
+    //     height: $destacados-container-height
+    //     min-height: $destacados-container-height
+    //     max-height: $destacados-container-height
+    @media (max-width: $desktop-break)
+        height: auto
+    .owl-controls
+        width: 100%
+    .owl-prev
+        float: left
+    .owl-next
+        float: right
+
+// .destacado-item
+//     &:nth-child(2), &:nth-child(3)
+//         display: none
+

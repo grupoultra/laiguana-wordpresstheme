@@ -1,0 +1,21 @@
+.owl-theme .owl-controls .owl-nav [class*=owl-]
+    padding: 6px 11px
+    margin: 10px
+    background: rgba(255, 0, 0, 0.45)
+    -webkit-border-radius: 32px
+    -moz-border-radius: 32px
+    border-radius: 32px
+    &:hover
+        background: rgba(255, 0, 0, 1)
+
+.owl-nav, .owl-dots
+    display: inline
+
+.owl-controls
+    position: absolute
+    right: 0
+    @media (min-width: $desktop-break)
+        top: 35%
+
+    @media (max-width: $desktop-break)
+        top: 17%

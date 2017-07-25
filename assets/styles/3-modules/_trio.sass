@@ -1,0 +1,24 @@
+.trio
+    .trio-item
+        margin-top: 10px
+        border: none
+        width: 32.6%
+        float: left
+        &:nth-child(1), &:nth-child(2)
+            margin-right: 10px
+        @media (max-width: $desktop-break)
+            width: 100%
+            margin-right: 0
+    .trio-item-body
+        height: 233px
+        overflow: hidden
+        border: 1px solid #e6263f
+        padding: 0px 2px
+
+    .trio-item.h-small
+        height: 270px
+
+    .trio-list-item
+        border-left: none
+        border-right: none
+        border-bottom: none

@@ -1,0 +1,17 @@
+@mixin hidden-mobile()
+    @media (max-width: $desktop-break)
+        display: none!important
+@mixin hidden-desktop()
+    @media (min-width: 320px)
+        display: block!important
+    @media (min-width: $desktop-break)
+        display: none!important
+
+@mixin width-percent-pixels($percent, $pixels)
+    width: -webkit-calc(#{$percent} - #{$pixels})
+    width:    -moz-calc(#{$percent} - #{$pixels})
+    width:         calc(#{$percent} - #{$pixels})
+@mixin height-percent-pixels($percent, $pixels)
+    height: -webkit-calc(#{$percent} - #{$pixels})
+    height:    -moz-calc(#{$percent} - #{$pixels})
+    height:         calc(#{$percent} - #{$pixels})

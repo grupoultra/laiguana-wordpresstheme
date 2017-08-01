@@ -2,7 +2,7 @@
 
 function laiguanaResources(){
     wp_deregister_script('jquery');
-    wp_register_script('jquery', "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js", false, null);
+    wp_register_script('jquery', "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js", false, null);
     wp_enqueue_script('jquery');
 
     wp_enqueue_style( 'bootstrap', get_stylesheet_directory_uri() . '/assets/bower_components/bootstrap/dist/css/bootstrap.min.css');
@@ -16,7 +16,7 @@ function laiguanaResources(){
 
     wp_enqueue_style( 'owl-carousel', get_stylesheet_directory_uri() . '/assets/bower_components/owl.carousel/dist/assets/owl.carousel.min.css');
     wp_enqueue_style( 'owl-carousel-theme', get_stylesheet_directory_uri() . '/assets/bower_components/owl.carousel/dist/assets/owl.theme.default.css');
-    wp_enqueue_script( 'owl-carousel', get_stylesheet_directory_uri() . '/assets/bower_components/owl.carousel/dist/owl.carousel.min.js');
+    wp_enqueue_script( 'owl-carousel-js', get_stylesheet_directory_uri() . '/assets/bower_components/owl.carousel/dist/owl.carousel.min.js');
 }
 
 add_action( 'wp_enqueue_scripts', laiguanaResources );

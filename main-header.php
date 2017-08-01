@@ -34,7 +34,12 @@
 		</div>
 
 		<div class="col-md-2 search-box">
-			<form action="http://www.google.co.ve" id="cse-search-box">
+
+					<!-- hd-search -->
+			<div class="hd-search">
+				<?php get_search_form(); ?>
+			</div><!-- /hd-search -->
+			<!--<form action="http://www.google.co.ve" id="cse-search-box">
 				<div>
 					<input type="hidden" name="cx" value="partner-pub-8216476634474264:8992413038" />
 					<input type="hidden" name="ie" value="UTF-8" />
@@ -42,6 +47,6 @@
 				</div>
 			</form>
 
-			<script type="text/javascript" src="http://www.google.co.ve/coop/cse/brand?form=cse-search-box&amp;lang=es"></script>
+			<script type="text/javascript" src="http://www.google.co.ve/coop/cse/brand?form=cse-search-box&amp;lang=es"></script>-->
 		</div>
 	</div>

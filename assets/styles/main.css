@@ -964,8 +964,6 @@ th {
   height: 452px;
   overflow: hidden;
   background-color: #000000; }
-  .el-video-container iframe {
-    margin-top: 15px; }
 
 @media (max-width: 1090px) {
   .el-video-container, .el-video {
@@ -1117,7 +1115,7 @@ th {
   border: 1px solid #e6263f;
   padding: 0px 2px; }
   .trio .trio-item-body li {
-    height: 57px;
+    height: 46px;
     overflow: hidden; }
 .trio .trio-item.h-small {
   height: 270px; }

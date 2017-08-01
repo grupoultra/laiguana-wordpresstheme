@@ -24,52 +24,28 @@ for(i=0;i<divs.length;i++) {
     }
 }
 
-// $(document).ready(function(){
-//     $(".owl-carouse").owlCarousel({
-//         autoplay: false,
-//         autoplayTimeout:5000,
-//         autoplayHoverPause: true,
-//         nav: true,
-//         navText: ['<','>'],
-//         dotsEach: true,
-//         slideBy: 3,
-//         loop: true,
-//         lazyLoad: true,
-//         dots: false,
-//         responsive : {
-//             0 : {
-//                 items: 2
-//             },
-//             1090 : {
-//                 items: 3
-//             }
-//         }
-//     });
-// });
-
-
 $(document).ready(function(){
-    $(".owl-carousel-destacados").owlCarousel({
-        items: 1,
+    $(".owl-carousel").owlCarousel({
+        autoplay: false,
+        autoplayTimeout:5000,
+        autoplayHoverPause: true,
+        nav: true,
+        navText: ['<','>'],
+        dotsEach: true,
+        slideBy: 3,
+        loop: true,
+        lazyLoad: true,
+        dots: false,
+        responsive : {
+            0 : {
+                items: 2
+            },
+            1090 : {
+                items: 3
+            }
+        }
     });
 });
-
-// $(document).ready(function(){
-//     $(".owl-carousel-destacados").owlCarousel({
-//         autoplay: true,
-//         items: 1,
-//         autoplayTimeout:5000,
-//         autoplayHoverPause: true,
-//         dotsEach: true,
-//         nav: true,
-//         navText: [
-//             "<i class='icon-chevron-left icon-white'><</i>",
-//             "<i class='icon-chevron-right icon-white'>></i>"
-//         ],
-//         loop: true,
-//         dots: false
-//     });
-// });
 
 function share(platform, link, text){
 

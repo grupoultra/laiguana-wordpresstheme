@@ -28,20 +28,36 @@
 .owl-carousel-destacados
     padding-top: 0px
     overflow: hidden
-    // @media (min-width: $desktop-break)
-    //     height: $destacados-container-height
-    //     min-height: $destacados-container-height
-    //     max-height: $destacados-container-height
+    @media (min-width: $desktop-break)
+        height: $destacados-container-height
+        min-height: $destacados-container-height
+        max-height: $destacados-container-height
     @media (max-width: $desktop-break)
         height: auto
     .owl-controls
         width: 100%
-    .owl-prev
-        float: left
-    .owl-next
-        float: right
+    .owl-nav
+        width: 100%
+        position: absolute
+        top: 40%
+        & [class*=owl-]
+            padding: 6px 11px
+            margin: 10px
+            background: rgba(255,0,0,0.45)
+            -webkit-border-radius: 32px
+            -moz-border-radius: 32px
+            border-radius: 32px
+            color: #fff
+            font-size: 14px
+            &:hover
+                background: rgba(255,0,0,1)
+            
+        .owl-prev
+            float: left
+        .owl-next
+            float: right
 
-// .destacado-item
-//     &:nth-child(2), &:nth-child(3)
-//         display: none
+.destacado-item
+    &:nth-child(2), &:nth-child(3)
+        display: none
 

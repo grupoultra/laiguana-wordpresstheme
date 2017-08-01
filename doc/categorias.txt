@@ -1,0 +1,21 @@
+// Categorias
+Política y sexo
+Economía y faranduleo
+Mundo y deportes
+Cultura y servicios
+Sucesos y tecnología
+Virales y salud            
+
+//Zonas
+Destacados
+C1
+C2
+C3
+C4
+General
+Lo+Polemico
+Iguanazos
+Cara a Cara
+La foto
+El video
+Lo+jot

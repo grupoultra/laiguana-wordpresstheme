@@ -8,15 +8,18 @@ function laiguanaResources(){
     wp_enqueue_style( 'bootstrap', get_stylesheet_directory_uri() . '/assets/bower_components/bootstrap/dist/css/bootstrap.min.css');
     wp_enqueue_script( 'bootstrap', get_stylesheet_directory_uri() . '/assets/bower_components/bootstrap/dist/js/bootstrap.min.js');
 
-    wp_enqueue_script( 'plugins', get_stylesheet_directory_uri() . '/assets/js/plugins.js');
-    wp_enqueue_script( 'main', get_stylesheet_directory_uri() . '/assets/js/main.js');
-
-    wp_enqueue_style( 'main', get_stylesheet_directory_uri() . '/assets/styles/main.css');
     wp_enqueue_style( 'fa', get_stylesheet_directory_uri() . '/assets/bower_components/font-awesome/css/font-awesome.min.css');
 
     wp_enqueue_style( 'owl-carousel', get_stylesheet_directory_uri() . '/assets/bower_components/owl.carousel/dist/assets/owl.carousel.min.css');
     wp_enqueue_style( 'owl-carousel-theme', get_stylesheet_directory_uri() . '/assets/bower_components/owl.carousel/dist/assets/owl.theme.default.css');
     wp_enqueue_script( 'owl-carousel-js', get_stylesheet_directory_uri() . '/assets/bower_components/owl.carousel/dist/owl.carousel.min.js');
+
+    wp_enqueue_script( 'main-marquee-js', get_stylesheet_directory_uri() . '/assets/bower_components/jquery.marquee/jquery.marquee.min.js');
+
+    wp_enqueue_script( 'plugins', get_stylesheet_directory_uri() . '/assets/js/plugins.js');
+    wp_enqueue_script( 'main', get_stylesheet_directory_uri() . '/assets/js/main.js');
+
+    wp_enqueue_style( 'main', get_stylesheet_directory_uri() . '/assets/styles/main.css');
 }
 
 add_action( 'wp_enqueue_scripts', laiguanaResources );
@@ -24,7 +27,7 @@ add_action( 'wp_enqueue_scripts', laiguanaResources );
 
 // Theme setup
 function laiguana_setup() {
-	
+
 	// Add featured image support
 	add_theme_support('post-thumbnails');
 	add_image_size('destacado', 1070, 441, true);
@@ -34,7 +37,7 @@ function laiguana_setup() {
 	add_image_size('iguanazos_anteriores', 203, 130, true);
 	add_image_size('lo_mas_jot', 278, 80, true);
 	add_image_size('noticias_anteriores', 328, 135, true);
-    
+
 	// Add post type support
 	add_theme_support('post-formats', array('aside', 'gallery', 'link'));
 }
@@ -62,7 +65,7 @@ function wpb_track_post_views ($post_id) {
     if ( !is_single() ) return;
     if ( empty ( $post_id) ) {
         global $post;
-        $post_id = $post->ID;    
+        $post_id = $post->ID;
     }
     wpb_set_post_views($post_id);
 }

@@ -137,3 +137,9 @@ $(window).load(function(){
         console.log("showSplash Cookie is set, not showing the splash");
     }
 });
+
+$('.marquee').marquee({
+    pauseOnHover: true,
+    duration: 10000,
+    startVisible: false
+});

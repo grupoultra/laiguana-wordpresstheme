@@ -16,16 +16,15 @@
 			ga('send', 'pageview');
 		</script>
 	</head>
-
+	
 <body <?php body_class("body"); ?>>
     <div id="white-container" class="container">
 	<?php
 		if(is_home()){
-			get_template_part( 'HD-HB1' );
+			get_template_part( 'HD-HB1' ); 
 		} elseif (is_singular()){
-			get_template_part( 'ND-HB1' );
+			get_template_part( 'ND-HB1' ); 			
 		}
-		get_template_part( 'main', 'marquee' );
 		get_template_part( 'main', 'header' );
 		get_template_part( 'main', 'menu' )
 	?>

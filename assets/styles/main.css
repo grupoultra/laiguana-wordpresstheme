@@ -1370,33 +1370,6 @@ ul.menu-principal > li {
 @media (min-width: 1090px) {
   .h-normal {
     height: 485px; } }
-.marquee-section {
-  margin-bottom: 5px; }
-  .marquee-section .marquee {
-    padding: 4px 0;
-    display: inline-block;
-    overflow: hidden;
-    background: #eaeaea;
-    height: 28px;
-    max-height: 28px; }
-    .marquee-section .marquee a {
-      color: #585858;
-      text-decoration: none; }
-    .marquee-section .marquee .separator {
-      color: #f00; }
-  .marquee-section .title {
-    padding: 4px 0;
-    text-align: center;
-    font-weight: 900;
-    display: inline-block;
-    background: #f00;
-    color: white;
-    text-transform: uppercase; }
-    @media (max-width: 1090px) {
-      .marquee-section .title {
-        font-size: 10px;
-        padding: 7px 0; } }
-
 .tag-body .tag-title {
   margin-top: 15px;
   font-family: "folksbold";

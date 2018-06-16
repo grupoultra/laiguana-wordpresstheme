@@ -1,5 +1,4 @@
 <div id="ND-NV1" class="banner margin-top-10 hidden-mobile">
-    <#if enableNDNV1 && enableBanners>
         <div id="taboola-right-rail-thumbnails"></div>
 	<script type="text/javascript">
 	  window._taboola = window._taboola || [];
@@ -10,5 +9,4 @@
 	    target_type: 'mix'
 	  });
 	</script>
-    </#if>
 </div>

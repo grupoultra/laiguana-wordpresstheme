@@ -1,34 +1,54 @@
-.main-header
-    background-image: url(../img/logo.png)
-    background-size: cover
-    height: 170px
-    #titlelink
-        position: relative
-        float: left
-        display: block
-        z-index: 10
-        top: 0px
-        left: 0px
-        width: 350px
-        height: 170px
-        background-color: transparent
+header
     .social-box
-        bottom: -80px
-        left: 200px
-        margin-bottom: 10px
-.social-mobile-box
-    +hidden-desktop()
-.mobile-header
-    display: none
-    +hidden-desktop()
-    margin-bottom: 10px
-    background-color: #be1e2d
-    height: 50px
-    text-align: center
-    padding-top: 7px
-    padding-bottom: 5px
-.search-box
-    bottom: -112px
-    left: 30px
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
-    font-size: 14px
+        ul.social-nav
+            li
+                a
+                    color: #292f33
+                    background-color: white
+                    &:hover
+                        color: #ff2b00
+                    height: 40px
+                    width: 40px
+                    overflow: hidden
+                    font-size: 40px
+                    &.googleplus
+                        width: 52px
+                    &.pinteres
+                        width: 36px
+                    &.rss
+                        width: 36px
+                    &:nth-of-type(2)
+                        color: deeppink
+    .main-header
+        background-image: url(../img/logo.png)
+        background-size: cover
+        height: 170px
+        .twitter-follow
+            margin: 15px
+        .social-box
+            bottom: -35px
+            left: -15px
+            margin-bottom: 10px
+            text-align: right
+            position: relative
+        #titlelink
+            position: relative
+            float: left
+            display: block
+            z-index: 10
+            top: 0px
+            left: 0px
+            width: 730px
+            height: 170px
+            background-color: transparent
+    .mobile-header
+        background-color: white
+        text-align: center
+    .search-box
+        text-align: right
+        .search-input
+            margin-right: 15px
+            background-color: #eee !important
+            border: none
+            border-radius: 5px
+            width: 210px

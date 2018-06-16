@@ -99,14 +99,6 @@ function getCookie(cname) {
     return "";
 }
 
-// $(document).ready(function(){
-    const twitterButton = document.querySelector('.twitter-shar-button');
-
-    if(twitterButton){
-        twitterButton.innerHTML ='<img src="/activos/assets/img/tw-share-tag.png" alt="La Iguana Twitter" />';
-    }
-// });
-
 $(window).load(function(){
     var enableSplash = false;
 

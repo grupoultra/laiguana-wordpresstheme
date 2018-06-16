@@ -21,13 +21,13 @@
     <div id="white-container" class="container">
 	<?php
 		if(is_home()){
-			get_template_part( 'HD-HB1' );
+			get_template_part( 'banners/home/desktop/HD-HB1' );
 		} elseif (is_singular()){
-			get_template_part( 'ND-HB1' );
+			get_template_part( 'banners/nota/desktop/ND-HB1' );
 		}
-		get_template_part( 'main', 'marquee' );
+		get_template_part( 'marquee' );
 		get_template_part( 'main', 'header' );
-		get_template_part( 'main', 'menu' )
+		get_template_part( 'menu' )
 	?>
 
 

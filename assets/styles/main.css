@@ -1189,52 +1189,56 @@ th {
 @media (max-width: 1230px) {
   .skyscrapper-banner {
     display: none; } }
-.main-header {
+header .social-box ul.social-nav li a {
+  color: #292f33;
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  font-size: 40px; }
+  header .social-box ul.social-nav li a:hover {
+    color: #ff2b00; }
+  header .social-box ul.social-nav li a.googleplus {
+    width: 52px; }
+  header .social-box ul.social-nav li a.pinteres {
+    width: 36px; }
+  header .social-box ul.social-nav li a.rss {
+    width: 36px; }
+  header .social-box ul.social-nav li a:nth-of-type(2) {
+    color: deeppink; }
+header .main-header {
   background-image: url(../img/logo.png);
   background-size: cover;
   height: 170px; }
-  .main-header #titlelink {
+  header .main-header .twitter-follow {
+    margin: 15px; }
+  header .main-header .social-box {
+    bottom: -35px;
+    left: -15px;
+    margin-bottom: 10px;
+    text-align: right;
+    position: relative; }
+  header .main-header #titlelink {
     position: relative;
     float: left;
     display: block;
     z-index: 10;
     top: 0px;
     left: 0px;
-    width: 350px;
+    width: 730px;
     height: 170px;
     background-color: transparent; }
-  .main-header .social-box {
-    bottom: -80px;
-    left: 200px;
-    margin-bottom: 10px; }
-
-@media (min-width: 320px) {
-  .social-mobile-box {
-    display: block !important; } }
-@media (min-width: 1090px) {
-  .social-mobile-box {
-    display: none !important; } }
-
-.mobile-header {
-  display: none;
-  margin-bottom: 10px;
-  background-color: #be1e2d;
-  height: 50px;
-  text-align: center;
-  padding-top: 7px;
-  padding-bottom: 5px; }
-  @media (min-width: 320px) {
-    .mobile-header {
-      display: block !important; } }
-  @media (min-width: 1090px) {
-    .mobile-header {
-      display: none !important; } }
-
-.search-box {
-  bottom: -112px;
-  left: 30px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px; }
+header .mobile-header {
+  background-color: white;
+  text-align: center; }
+header .search-box {
+  text-align: right; }
+  header .search-box .search-input {
+    margin-right: 15px;
+    background-color: #eee !important;
+    border: none;
+    border-radius: 5px;
+    width: 210px; }
 
 .menu-principal {
   padding: 3px 0;
@@ -1263,31 +1267,25 @@ ul.menu-principal > li {
     display: block;
     height: 52px; }
     ul.menu-principal > li a:hover {
-      border-bottom: 4px solid #FFF; }
+      border-bottom: 4px solid #f00; }
   ul.menu-principal > li:nth-child(1) a {
-    background: transparent url("../img/pol-sex.png") no-repeat;
-    background-position-x: center;
-    background-color: #ff0843; }
+    background: transparent url("../img/pol-sex.jpg") no-repeat;
+    background-position-x: center; }
   ul.menu-principal > li:nth-child(2) a {
-    background: transparent url("../img/eco-far.png") no-repeat;
-    background-position-x: center;
-    background-color: #ff4e30; }
+    background: transparent url("../img/eco-far.jpg") no-repeat;
+    background-position-x: center; }
   ul.menu-principal > li:nth-child(3) a {
-    background: transparent url("../img/mun-dep.png") no-repeat;
-    background-position-x: center;
-    background-color: #ff9900; }
+    background: transparent url("../img/mun-dep.jpg") no-repeat;
+    background-position-x: center; }
   ul.menu-principal > li:nth-child(4) a {
-    background: transparent url("../img/cul-ser.png") no-repeat;
-    background-position-x: center;
-    background-color: #a0c519; }
+    background: transparent url("../img/cul-ser.jpg") no-repeat;
+    background-position-x: center; }
   ul.menu-principal > li:nth-child(5) a {
-    background: transparent url("../img/suc-tec.png") no-repeat;
-    background-position-x: center;
-    background-color: #33cccc; }
+    background: transparent url("../img/suc-tec.jpg") no-repeat;
+    background-position-x: center; }
   ul.menu-principal > li:nth-child(6) a {
-    background: transparent url("../img/vir-sal.png") no-repeat;
-    background-position-x: center;
-    background-color: #86c6e7; }
+    background: transparent url("../img/vir-sal.jpg") no-repeat;
+    background-position-x: center; }
 
 .lomaspolemico {
   height: 585px; }

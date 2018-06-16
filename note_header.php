@@ -18,6 +18,13 @@
                 <a class="twitter-shar-button" href="https://twitter.com/intent/tweet?text=<?php the_title()?> @la_iguanatv">
                     Compartir via twitter
                 </a>
+            <script>
+                const twitterButton = document.querySelector('.twitter-shar-button');
+
+                if(twitterButton){
+                  twitterButton.innerHTML ='<img src="<?php echo get_bloginfo('template_url') ?>/assets/img/tw-share-tag.png" alt="La Iguana Twitter" />';
+                }
+            </script>
             </div>
             <div class="col-xs-6 col-md-2">
                 <img src="<?php echo get_bloginfo('template_url') ?>/assets/img/gp-share-tag.png" alt="La Iguana Google Plus"  onclick="return share('GP', '${nota.getPath()}')">

@@ -1,5 +1,4 @@
 <div id="HD-HM4" class="banner margin-top-10 banner-c banner728x90 hidden-mobile">
-    <#if enableHDHM4 && enableBanners>
     <script type="text/javascript"><!--
     google_ad_client = "ca-pub-2697483239283649";
     /* laiguana.tv */
@@ -10,8 +9,5 @@
     </script>
     <script type="text/javascript"
     src="//pagead2.googlesyndication.com/pagead/show_ads.js">
-    </script>  
-    <#else>
-        <img src="http://activos.laiguana.tv/images/ads/n728x90.png" width="728px" height="90px" />
-    </#if> 
+    </script>
 </div>

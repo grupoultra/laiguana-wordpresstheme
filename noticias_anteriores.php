@@ -9,11 +9,11 @@
         'category_name' => 'General',
         'posts_per_page' => 22,
     ));
-    if ($aboutPosts->have_posts()) : 
+    if ($aboutPosts->have_posts()) :
         $nota_index = 0;
-    
+
         while ($aboutPosts->have_posts()) : $aboutPosts->the_post();
-        ?> 
+        ?>
 
             <?php if($nota_index % 2 == 0):?>
             <div class="noticiasanteriores-item">
@@ -23,14 +23,16 @@
                         <?php the_post_thumbnail('noticias_anteriores', array('class' => 'img-responsive no-padding no-margin', 'alt' => get_the_title())) ?>
 
                         <div class="caption">
-                            <h3 class="titulo"><?php the_title() ?></h3>
+                            <h3 class="titulo">
+                                <?php echo wp_trim_words( get_the_title(), 10 ); ?>
+                            </h3>
                         </div>
                     </a>
                 </div>
             <?php if($nota_index % 2 != 0):?>
             </div>
             <?php endif;?>
-        <?php 
+        <?php
             $nota_index = $nota_index +1;
             endwhile;
             endif;

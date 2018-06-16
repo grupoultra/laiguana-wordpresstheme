@@ -484,9 +484,21 @@ th {
   width: 302px;
   height: 602px; }
 
+.banner300x750 {
+  width: 302px;
+  height: 752px; }
+
 .banner728x90 {
   width: 730px;
   height: 92px; }
+
+.banner728x428 {
+  width: 730px;
+  height: 430px; }
+
+.banner728x330 {
+  width: 730px;
+  height: 202px; }
 
 .banner728x200 {
   width: 730px;
@@ -1001,8 +1013,8 @@ th {
     margin-top: -5px;
     width: 100%;
     display: block; }
-    .noticiasanteriores-container .owl-nav [class*=owl-] {
-      padding: 6px 11px;
+    .noticiasanteriores-container .owl-nav button.owl-next, .noticiasanteriores-container .owl-nav button.owl-prev {
+      padding: 6px 11px !important;
       margin: 10px;
       background: rgba(255, 0, 0, 0.45);
       -webkit-border-radius: 32px;
@@ -1010,7 +1022,7 @@ th {
       border-radius: 32px;
       color: #fff;
       font-size: 14px; }
-      .noticiasanteriores-container .owl-nav [class*=owl-]:hover {
+      .noticiasanteriores-container .owl-nav button.owl-next:hover, .noticiasanteriores-container .owl-nav button.owl-prev:hover {
         background: red; }
     .noticiasanteriores-container .owl-nav .owl-prev {
       float: left; }
@@ -1126,7 +1138,7 @@ th {
     height: 46px;
     overflow: hidden; }
 .trio .trio-item.h-small {
-  height: 270px; }
+  height: 285px; }
 .trio .trio-list-item {
   border-left: none;
   border-right: none;

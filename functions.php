@@ -22,7 +22,7 @@ function laiguanaResources(){
     wp_enqueue_style( 'main', get_stylesheet_directory_uri() . '/assets/styles/main.css');
 }
 
-add_action( 'wp_enqueue_scripts', laiguanaResources );
+add_action( 'wp_enqueue_scripts', 'laiguanaResources' );
 
 
 // Theme setup

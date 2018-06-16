@@ -6,28 +6,24 @@
     if ($aboutPosts->have_posts()) : ?>
 
 <div class="ucard trio-item h-small round-left">
-	<div class="ucard h-normal stretch clean no-border">
-		<img class="card-img-top" src="<?php echo get_bloginfo('template_url') ?>/assets/img/lo-mas-jot_header.jpg" alt="Lo + jot" >
+    <img class="card-img-top" src="<?php echo get_bloginfo('template_url') ?>/assets/img/lo-mas-jot_header.png" alt="Lo + jot" >
+    <div class="trio-item-body" >
 
-        <div class="trio-item-body" >
+        <ul class="list-group list-group-flush">
+        <?php while ($aboutPosts->have_posts()) : $aboutPosts->the_post();?>
 
-            <ul class="list-group list-group-flush" style="padding-top: 5px; margin-bottom: 0px; height: 421px;">
+            <li class="list-group-item trio-list-item">
+                <a href="<?php the_title() ?>">
+                    <h4 class="titulo hcenter clean">
+                        <?php echo wp_trim_words( get_the_title(), 10 ); ?>
+                    </h3>
+                </a>
+            </li>
+        <?php endwhile; ?>
 
-            <?php while ($aboutPosts->have_posts()) : $aboutPosts->the_post();?> 
+        </ul>
 
-                <li class="list-group-item trio-list-item">
-                    <a href="<?php the_title() ?>">
-                        <h4 class="titulo hcenter clean">
-                            <?php the_title(); ?>
-                        </h3>
-                    </a>
-                </li>
-            <?php endwhile; ?>
-            
-            </ul>
-
-    	</div>
-	</div>
+    </div>
 </div>
 <?php endif;
     wp_reset_query();

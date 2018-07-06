@@ -1,7 +1,7 @@
 <header>
     <div class="row mobile-header hidden-desktop">
         <a href="/">
-            <img src="/activos/assets/img/li_mobile_head.jpg" alt="La Iguana">
+            <img src="<?php echo get_bloginfo('template_url') ?>/assets/img/li_mobile_head.jpg" alt="La Iguana">
         </a>
 
         <div class="row social-box center-block text-center">

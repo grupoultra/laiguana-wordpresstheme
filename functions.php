@@ -2,7 +2,7 @@
 
 function laiguanaResources(){
     wp_deregister_script('jquery');
-    wp_register_script('jquery', "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js", false, null);
+    wp_register_script('jquery', "https" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js", false, null);
     wp_enqueue_script('jquery');
 
     wp_enqueue_style( 'bootstrap', get_stylesheet_directory_uri() . '/assets/bower_components/bootstrap/dist/css/bootstrap.min.css');

@@ -20,8 +20,8 @@
     <div class="col-p">
     <?php
         $imagesLoMasLeido = 1;
-        get_template_part( "banners/nota/desktop/NV1");
-        include(locate_template('lo_mas_leido.php'));
+        get_template_part( "banners/nota/desktop/ND-NV1");
+        get_template_part( "banners/nota/desktop/ND-V2");
         get_template_part( "banners/nota/desktop/ND-C1");
         get_template_part( "lo_mas_polemico");
     ?>

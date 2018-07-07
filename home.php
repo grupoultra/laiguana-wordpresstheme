@@ -34,8 +34,7 @@
 <div class="col-p">
     <?php
         get_template_part( "banners/home/desktop/HD-V1");
-        $imagesLoMasLeido = 0;
-        include(locate_template('lo_mas_leido.php'));
+        get_template_part( "banners/home/desktop/HD-V5");
     ?>
 </div>
 

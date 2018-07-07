@@ -1,4 +1,4 @@
-<div id="ND-HB1" class="banner banner-c banner970x250 hidden-mobile margin-top-10 margin-bottom-10">
+<div id="ND-HB1" class="banner banner-c banner970x250 hidden-mobile margin-top-10 margin-bottom-10">    
     <script type="text/javascript"><!--
     google_ad_client = "ca-pub-2697483239283649";
     /* laiguana.tv */

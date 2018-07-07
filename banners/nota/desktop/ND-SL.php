@@ -1,12 +1,5 @@
 <div class="skyscrapper-banner left">
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <!-- SL_120x600 -->
-  <ins class="adsbygoogle"
-      style="display:inline-block;width:120px;height:600px"
-      data-ad-client="ca-pub-8216476634474264"
-      data-ad-slot="2314543472"></ins>
-  <script>
-  (adsbygoogle = window.adsbygoogle || []).push({});
-  </script>
+  <!-- laiguana.tv_120x600_NON-US -->
+  <script type="text/javascript" src="//u.tentaculos.net/7e583782-68eb-11e8-bc82-0685dc1fc043/t.js"></script>
 </div>
 

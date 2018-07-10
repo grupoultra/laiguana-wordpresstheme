@@ -1,7 +1,7 @@
+
     <div class="articulo-titulo">
         <span>
             <?php the_title() ?>
-            <?php echo wpb_get_post_views(get_the_ID()); ?>
         </span>
     </div>
 
@@ -12,10 +12,12 @@
             </div>
 
             <div class="col-xs-6 col-md-2">
-                <img src="<?php echo get_bloginfo('template_url') ?>/assets/img/fb-share-tag.png" alt="La Iguana Facebook" onclick="return share('FB', '${nota.getPath()}')">
+                <a target="_blank" href="https://www.facebook.com/sharer?u=<?php the_permalink();?>&t=<?php the_title(); ?>">
+                    <img src="<?php echo get_bloginfo('template_url') ?>/assets/img/fb-share-tag.png" alt="La Iguana Facebook" />
+                </a>
             </div>
             <div class="col-xs-6 col-md-2">
-                <a class="twitter-shar-button" href="https://twitter.com/intent/tweet?text=<?php the_title()?> @la_iguanatv">
+                <a class="twitter-shar-button" target="_blank" href="https://twitter.com/intent/tweet?text=<?php the_title()?> <?php the_permalink()?> @la_iguanatv">
                     Compartir via twitter
                 </a>
             <script>

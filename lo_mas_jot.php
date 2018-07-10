@@ -14,7 +14,7 @@
 
 			<li class="list-group-item clean">
 				<h3 class="titulo">
-					<a class="nolink" href="<?php the_title() ?>">
+					<a class="nolink" href="<?php the_permalink() ?>">
                         <?php
                             the_post_thumbnail('lo_mas_jot', array('class' => 'no-margin no-padding', "style" => 'width:100%; height: 80px;'));
                             the_title();

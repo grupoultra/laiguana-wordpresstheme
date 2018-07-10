@@ -13,7 +13,7 @@
         <?php while ($aboutPosts->have_posts()) : $aboutPosts->the_post();?>
 
             <li class="list-group-item trio-list-item">
-                <a href="<?php the_title() ?>">
+                <a href="<?php the_permalink() ?>">
                     <h4 class="titulo hcenter clean">
                         <?php echo wp_trim_words( get_the_title(), 10 ); ?>
                     </h3>

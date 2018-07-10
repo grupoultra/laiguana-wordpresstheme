@@ -19,7 +19,7 @@
             <div class="noticiasanteriores-item">
             <?php endif;?>
                 <div class="thumbnail">
-                    <a href="<?php the_title() ?>">
+                    <a href="<?php the_permalink(); ?>">
                         <?php the_post_thumbnail('noticias_anteriores', array('class' => 'img-responsive no-padding no-margin', 'alt' => get_the_title())) ?>
 
                         <div class="caption">

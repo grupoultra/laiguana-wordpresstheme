@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="<?php bloginfo('charset'); ?>">
 		<meta name="viewport" content="width=device-width">
+		<meta http-equiv="refresh" content="240">
 		<title><?php bloginfo('name'); ?></title>
 		<?php wp_head(); ?>
 
@@ -14,6 +15,36 @@
 			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 			ga('create', 'UA-33062755-1', 'auto');
 			ga('send', 'pageview');
+		</script>	
+ 
+		<!-- Start Alexa Certify Javascript &ndash;&gt;--> 
+		<script type="text/javascript"> 
+		  _atrk_opts = { atrk_acct:"trjMk1a4eFf2L7", domain:"laiguana.tv",dynamic: true}; 
+		  (function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })(); 
+		</script> 
+		<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=trjMk1a4eFf2L7" style="display:none" height="1" width="1" alt="" /></noscript> 
+		 
+		<!-- Clickio --> 
+		<script async type="text/javascript" src="//s.clickiocdn.com/t/pb205553.js"></script>
+		<script async type="text/javascript" src="//s.clickiocdn.com/t/common_258.js"></script>
+		
+		<!--  Publicidad embimedia nativa en el home  -->
+		<script type="text/javascript">
+		  window._taboola = window._taboola || [];
+		  _taboola.push({home:'auto'});
+		  !function (e, f, u, i) {
+			if (!document.getElementById(i)){
+			  e.async = 1;
+			  e.src = u;
+			  e.id = i;
+			  f.parentNode.insertBefore(e, f);
+			}
+		  }(document.createElement('script'),
+		  document.getElementsByTagName('script')[0],
+		  '//cdn.taboola.com/libtrc/embi-media-laiguana/loader.js',
+		  'tb_loader_script');
+		  if(window.performance && typeof window.performance.mark == 'function')
+			{window.performance.mark('tbl_ic');}
 		</script>
 	</head>
 

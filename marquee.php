@@ -6,7 +6,7 @@
 
     <?php
       $aboutPosts = new WP_Query(array(
-        'category_name' => 'Destacados',
+        'category_name' => 'General',
         'posts_per_page' => 40,
       ));
 

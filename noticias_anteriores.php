@@ -7,13 +7,15 @@
 
 <?php    $aboutPosts = new WP_Query(array(
         'category_name' => 'General',
-        'posts_per_page' => 22,
+        'posts_per_page' => 60,
+		'offset' => 22
     ));
     if ($aboutPosts->have_posts()) :
         $nota_index = 0;
 
         while ($aboutPosts->have_posts()) : $aboutPosts->the_post();
         ?>
+			
 
             <?php if($nota_index % 2 == 0):?>
             <div class="noticiasanteriores-item">

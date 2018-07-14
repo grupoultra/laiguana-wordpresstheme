@@ -1,7 +1,7 @@
 <?php
     $aboutPosts = new WP_Query(array(
         'category_name' => 'lo_mas_jot',
-        'posts_per_page' => 3,
+        'posts_per_page' => 5,
     ));
     if ($aboutPosts->have_posts()) : ?>
 

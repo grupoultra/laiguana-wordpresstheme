@@ -64,7 +64,7 @@
     <div class="col-g">
         <?php get_template_part( "iguanazos"); ?>
     </div>
-    <div class="col-p">
+    <div class="col-p hidden-mobile">
         <?php get_template_part( "iguanazos_anteriores"); ?>
     </div>
     <div class="clearfix"></div>
@@ -103,7 +103,7 @@
         ?>
 
     </div>
-    <div class="col-p">
+    <div class="col-p hidden-mobile">
         <?php
             get_template_part( "banners/home/desktop/HD-C3");
             get_template_part( "guerra_twitter");

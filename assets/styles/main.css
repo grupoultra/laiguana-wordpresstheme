@@ -1090,6 +1090,8 @@ th {
       float: left; }
     .owl-carousel-destacados .owl-nav .owl-next {
       float: right; }
+  .owl-carousel-destacados .carousel-control {
+    width: 8%; }
 
 .iguanazos-anteriores {
   min-height: 465px; }

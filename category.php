@@ -1,6 +1,8 @@
 <?php
     get_header() ;
+    get_template_part( "banners/category/desktop/CD-HL1");
     ?>
+
     <div class="margin-top-10">
         <div class="col-g">
             <?php if (have_posts()) : ?>

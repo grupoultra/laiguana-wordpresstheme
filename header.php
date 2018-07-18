@@ -4,7 +4,7 @@
 		<meta charset="<?php bloginfo('charset'); ?>">
 		<meta name="viewport" content="width=device-width">
 		<meta http-equiv="refresh" content="240">
-		<title><?php bloginfo('name'); ?></title>
+		<title><?php bloginfo('name'); ?><?php single_post_title( ' | ' ); ?></title>
 		<?php wp_head(); ?>
 
 		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

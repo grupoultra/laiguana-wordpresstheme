@@ -1,6 +1,6 @@
 <?php
     get_header() ;
-    get_template_part( "banners/category/desktop/CD-HL1");
+    get_template_part( "banners/category/desktop/CD-HB1");
     ?>
 
     <div class="margin-top-10">

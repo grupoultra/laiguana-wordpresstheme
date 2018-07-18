@@ -8,7 +8,7 @@
 	<div class="ucard h-normal stretch round-right clean no-border">
 		<img class="card-img-top" src="<?php echo get_bloginfo('template_url') ?>/assets/img/lohot_header.jpg" alt="Lo + jot" >
 
-		<ul class="orange-border list-group list-group-flush" style="padding-top: 5px; margin-bottom: 0px; height: 421px;">
+		<ul class="orange-border list-group list-group-flush" style="padding-top: 5px; margin-bottom: 0px; height: 435px;">
 
         <?php while ($aboutPosts->have_posts()) : $aboutPosts->the_post();?>
 

@@ -1,4 +1,4 @@
-<div class="orange-border vstretch">
+<div class="orange-border vstretch iguanazos-anteriores">
 <?php
     $aboutPosts = new WP_Query(array(
     'category_name' => 'iguanazos',

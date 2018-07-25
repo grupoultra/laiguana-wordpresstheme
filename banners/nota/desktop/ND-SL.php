@@ -1,5 +1,3 @@
 <div class="skyscrapper-banner left">
-  <!-- laiguana.tv_120x600_NON-US -->
-  <script type="text/javascript" src="//u.tentaculos.net/7e583782-68eb-11e8-bc82-0685dc1fc043/t.js"></script>
+  <img src="<?php echo get_bloginfo('template_url') ?>/assets/img/banners/n120x600.png" width="120px" height="600px" />
 </div>
-

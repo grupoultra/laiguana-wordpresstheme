@@ -1,10 +1,9 @@
 <div class="col-g clean vstretch" style="overflow: hidden;">
 	<div class="stretch el-video-container">
-		<img class="" src="<?php echo get_bloginfo('template_url') ?>/assets/img/elvideo_header.png" alt="El video" style="width: 100%; heigth: auto; ">
+		<img class="" src="<?php echo get_bloginfo('template_url') ?>/assets/img/elvideo_header.png" alt="El video" style="width: 100%; heigth: auto; margin-bottom: 10px">
             <?php 
 		// get_template_part( "elvideo_container_youtube"); 
 		?>
-
 
 <?php
     $aboutPosts = new WP_Query(array(

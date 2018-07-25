@@ -8,7 +8,7 @@
             <div class="margin-bottom-10 banner-c banner320x50 hidden-desktop">
                 <img class="clean img-responsive" src="<?php echo get_bloginfo('template_url') ?>/assets/img/comentariosm.jpg" style="padding: 0; margin: 0;" alt="La Iguana comentarios">
             </div>
-            <div class="fb-comments" data-href="http://laiguana.tv<?php the_permalink() ?>"
+            <div class="fb-comments" data-href="<?php the_permalink(); ?>"
                  data-width="100%" data-numposts="10" >
             </div>
         </div>

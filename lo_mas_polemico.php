@@ -1,7 +1,7 @@
 <?php
     $aboutPosts = new WP_Query(array(
         'category_name' => 'lo_mas_polemico',
-        'posts_per_page' => 6,
+        'posts_per_page' => 8,
     ));
     if ($aboutPosts->have_posts()) : ?>
 

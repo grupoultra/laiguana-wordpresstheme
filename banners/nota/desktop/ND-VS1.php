@@ -1,3 +1,5 @@
-<div id="ND-V2" class="banner banner300x600 hidden-mobile margin-top-10">
-    <img src="<?php echo get_bloginfo('template_url') ?>/assets/img/banners/n300x600.gif" width="300px" height="600px" />
-</div>
+<#--  ND-VS1 -->
+    <script async type='text/javascript' src='//s.clickiocdn.com/t/common_258.js'></script>
+    <script class='__lxGc__' type='text/javascript'>
+       ((__lxGc__=window.__lxGc__||{'s':{},'b':0})['s']['_205553']=__lxGc__['s']['_205553']||{'b':{}})['b']['_607161']={'i':__lxGc__.b++};
+    </script>

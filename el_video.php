@@ -7,6 +7,7 @@
 
 <?php
     $aboutPosts = new WP_Query(array(
+        'no_found_rows' => true,
         'category_name' => 'el_video',
         'posts_per_page' => 1,
     ));

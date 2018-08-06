@@ -6,7 +6,10 @@
 
     <?php
       $aboutPosts = new WP_Query(array(
+        'no_found_rows' => true,
         'category_name' => 'General',
+        'orderby'     => 'modified',
+        'order'       => 'DESC',
         'posts_per_page' => 5,
       ));
 

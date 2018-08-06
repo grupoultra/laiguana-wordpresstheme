@@ -1,6 +1,7 @@
 
 <?php
     $aboutPosts = new WP_Query(array(
+        'no_found_rows' => true,
         'category_name' => 'la_foto',
         'posts_per_page' => 1,
     ));

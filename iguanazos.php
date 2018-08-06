@@ -2,6 +2,7 @@
 	<div class="card stretch green-border round-left"  style="overflow: hidden">
     <?php
         $aboutPosts = new WP_Query(array(
+        'no_found_rows' => true,
         'category_name' => 'iguanazos',
         'posts_per_page' => 1,
     ));

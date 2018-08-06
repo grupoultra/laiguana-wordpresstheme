@@ -111,3 +111,13 @@ function theme_slug_setup() {
    add_theme_support( 'title-tag' );
 }
 add_action( 'after_setup_theme', 'theme_slug_setup' );
+
+function modified( $query )
+{
+    if ( $query->is_main_query() && ( $query->is_home() || $query->is_search() || $query->is_archive() )  )
+    {
+        $query->set( 'orderby', 'modified' );
+        $query->set( 'order', 'desc' );
+    }
+}
+add_action( 'pre_get_posts', 'modified' );

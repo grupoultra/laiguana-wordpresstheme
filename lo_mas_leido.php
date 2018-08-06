@@ -2,6 +2,7 @@
 <?php
 
     $aboutPosts = new WP_Query( array(
+        'no_found_rows' => true,
         'posts_per_page' => 6,
         'meta_key' => 'wpb_post_views_count',
         'orderby' => 'meta_value_num',

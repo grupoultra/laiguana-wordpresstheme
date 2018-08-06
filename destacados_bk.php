@@ -1,6 +1,7 @@
 <div class="row">
         <?php
             $aboutPosts = new WP_Query(array(
+                'no_found_rows' => true,
                 'category_name' => 'Destacados',
                 'posts_per_page' => 4,
             ));

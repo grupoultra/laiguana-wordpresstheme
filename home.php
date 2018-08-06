@@ -43,6 +43,8 @@
     <?php
         $amount = 4;
         $category = 'General';
+        $modified = 'modified';
+        $order = 'DESC';
         include(locate_template('Nota.php'));
     ?>
 </div>
@@ -75,6 +77,8 @@
         <?php
             $amount = 6;
             $category = 'General';
+            $modified = 'modified';
+            $order = 'DESC';
             $offset = 4;
             include(locate_template('Nota.php'));
         ?>
@@ -98,6 +102,8 @@
         <?php
             $amount = 6;
             $category = 'General';
+            $modified = 'modified';
+            $order = 'DESC';
             $offset = 10;
             include(locate_template('Nota.php'));
         ?>
@@ -134,6 +140,8 @@
         <?php
             $amount = 6;
             $category = 'General';
+            $modified = 'modified';
+            $order = 'DESC';
             $offset = 16;
             include(locate_template('Nota.php'));?>
             <div class="clearfix"></div>

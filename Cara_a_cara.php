@@ -1,5 +1,6 @@
 <?php
     $aboutPosts = new WP_Query(array(
+        'no_found_rows' => true,
         'category_name' => 'cara_a_cara',
         'posts_per_page' => 6,
     ));

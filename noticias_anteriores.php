@@ -6,6 +6,7 @@
 
 
 <?php    $aboutPosts = new WP_Query(array(
+        'no_found_rows' => true,
         'category_name' => 'General',
         'posts_per_page' => 60,
 		'offset' => 22

@@ -1,8 +1,12 @@
 <?php
     $aboutPosts = new WP_Query(array(
+        'no_found_rows' => true,
         'category_name' => $category,
         'posts_per_page' => $amount,
-        'offset' => $offset
+        'offset' => $offset,
+        'orderby' => $orderby,
+        'order' => $order
+
     ));
     if ($aboutPosts->have_posts()) : 
         while ($aboutPosts->have_posts()) : $aboutPosts->the_post();?>  

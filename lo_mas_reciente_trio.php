@@ -1,5 +1,6 @@
 <?php
     $aboutPosts = new WP_Query(array(
+        'no_found_rows' => true,
         'posts_per_page' => 5,
     ));
     if ($aboutPosts->have_posts()) : ?>

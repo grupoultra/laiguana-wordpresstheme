@@ -1,6 +1,7 @@
 <div class="orange-border vstretch iguanazos-anteriores">
 <?php
     $aboutPosts = new WP_Query(array(
+    'no_found_rows' => true,
     'category_name' => 'iguanazos',
     'posts_per_page' => 3,
     'offset' => 1

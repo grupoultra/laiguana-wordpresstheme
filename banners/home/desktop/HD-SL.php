@@ -1,4 +1,4 @@
-<div class="skyscrapper-banner left">
+<div id="HD-SL" class="skyscrapper-banner left">
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <!-- SL_120x600 -->
   <ins class="adsbygoogle"

@@ -1,4 +1,9 @@
 <?php
+	get_template_part( "banners/nota/desktop/ND-SR");
+	get_template_part( "banners/nota/desktop/ND-SL");
+?>
+
+<?php
     get_header() ;
     if (have_posts()) :
         while (have_posts()) : the_post();

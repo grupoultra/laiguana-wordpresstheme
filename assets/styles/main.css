@@ -1198,9 +1198,13 @@ th {
 .skyscrapper-banner {
   position: absolute; }
   .skyscrapper-banner.right {
-    right: 0; }
+    right: 0;
+    position: fixed;
+    top: 4rem; }
   .skyscrapper-banner.left {
-    left: 0; }
+    left: 0;
+    position: fixed;
+    top: 4rem; }
 
 @media (max-width: 1330px) {
   body.nota .skyscrapper-banner {

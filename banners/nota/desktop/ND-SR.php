@@ -1,4 +1,4 @@
-<div class="skyscrapper-banner right">
+<div id="ND-SR" class="skyscrapper-banner right">
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <!-- SR_120x600 -->
   <ins class="adsbygoogle"

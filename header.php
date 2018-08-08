@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="<?php bloginfo('charset'); ?>">
 		<meta name="viewport" content="width=device-width">
-		<meta http-equiv="refresh" content="240">
+		<meta http-equiv="refresh" content="300">
 		<title><?php echo(single_post_title( '' ) . " " . get_bloginfo()); ?></title>
 		<?php wp_head(); ?>
 

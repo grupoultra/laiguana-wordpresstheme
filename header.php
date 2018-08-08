@@ -53,10 +53,16 @@
 	<?php
 		if(is_home()){
 			get_template_part( 'banners/home/desktop/HD-HB1' );
+			get_template_part( "banners/home/desktop/HD-SR");
+			get_template_part( "banners/home/desktop/HD-SL");
 		} elseif (is_category()){
-			get_template_part( "banners/category/desktop/CD-HB1");	
+			get_template_part( "banners/category/desktop/CD-HB1");
+			get_template_part( "banners/nota/desktop/ND-SR");
+			get_template_part( "banners/nota/desktop/ND-SL");	
 		} elseif (is_singular()){
 			get_template_part( 'banners/nota/desktop/ND-HB1' );
+			get_template_part( "banners/nota/desktop/ND-SR");
+			get_template_part( "banners/nota/desktop/ND-SL");
 		}
 		get_template_part( 'marquee' );
 		get_template_part( 'main', 'header' );

@@ -1,9 +1,4 @@
 <?php
-	get_template_part( "banners/home/desktop/HD-SR");
-	get_template_part( "banners/home/desktop/HD-SL");
-?>
-
-<?php
     get_header();
     error_reporting(E_ALL);
     ini_set('display_errors', 1);

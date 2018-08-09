@@ -42,11 +42,11 @@
         $order = 'DESC';
         include(locate_template('Nota.php'));
     ?>
+
+    <?php get_template_part( "banners/home/mobile/HM-HS3"); ?>
 </div>
 
 <div class="clearfix"></div>
-
-<?php get_template_part( "banners/home/mobile/HM-HS3"); ?>
 
 <div class="col-p">
     <?php

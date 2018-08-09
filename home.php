@@ -43,10 +43,7 @@
         include(locate_template('Nota.php'));
     ?>
 
-    <?php get_template_part( "banners/home/mobile/HM-HS3"); ?>
 </div>
-
-<div class="clearfix"></div>
 
 <div class="col-p">
     <?php
@@ -58,6 +55,7 @@
 <div class="clearfix"></div>
 
 <?php get_template_part( "banners/home/desktop/HD-HL1"); ?>
+<?php get_template_part( "banners/home/mobile/HM-HS3"); ?>
 
 <div class="margin-top-10">
     <div class="col-g">

@@ -22,12 +22,7 @@
     <div class="clearfix"></div>
     <?php
         get_template_part( "banners/home/desktop/HD-N1");
-        get_template_part( "banners/home/desktop/HD-HS2");
-    ?>
-
-    <div class="clearfix"></div>
-    <?php
-        get_template_part( "banners/home/desktop/HD-HS3");
+        get_template_part( "banners/home/mobile/HM-HS2");
     ?>
 </div>
 
@@ -49,6 +44,9 @@
     ?>
 </div>
 
+<div class="clearfix"></div>
+
+<?php get_template_part( "banners/home/mobile/HM-HS3"); ?>
 
 <div class="col-p">
     <?php
@@ -56,7 +54,6 @@
         get_template_part( "lo_mas_polemico");
     ?>
 </div>
-
 
 <div class="clearfix"></div>
 
@@ -70,6 +67,7 @@
         <?php get_template_part( "iguanazos_anteriores"); ?>
     </div>
     <div class="clearfix"></div>
+    <?php get_template_part( "banners/home/mobile/HM-C1"); ?>
 </div>
 
 <div class="margin-top-10">
@@ -84,6 +82,7 @@
         ?>
 
     </div>
+
     <div class="col-p">
         <?php
             get_template_part( "banners/home/desktop/HD-C2");
@@ -93,9 +92,14 @@
     </div>
     <div class="clearfix"></div>
     <?php get_template_part( "banners/home/desktop/HD-HL2"); ?>
+    <?php get_template_part( "banners/home/mobile/HM-HS4"); ?>
 </div>
 
+<div class="clearfix"></div>
+
 <?php get_template_part( "la-foto"); ?>
+
+<?php get_template_part( "banners/home/mobile/HM-C2"); ?>
 
 <div class="margin-top-10">
     <div class="col-g">
@@ -109,6 +113,7 @@
         ?>
 
     </div>
+
     <div class="col-p hidden-mobile">
         <?php
             get_template_part( "banners/home/desktop/HD-C3");
@@ -120,6 +125,7 @@
     <div class="clearfix"></div>
 
     <?php get_template_part( "banners/home/desktop/HD-HL3"); ?>
+    <?php get_template_part( "banners/home/mobile/HM-HS5"); ?>
 </div>
 
 <div class="lomasjot el-video margin-top-10">
@@ -133,7 +139,10 @@
 
 <div class="clearfix"></div>
 
-<?php get_template_part( "banners/home/desktop/HD-HB2"); ?>
+<?php 
+    get_template_part( "banners/home/desktop/HD-HB2");
+    get_template_part( "banners/home/mobile/HM-C3");
+?>
 
 <div class="margin-top-10">
     <div class="col-g">
@@ -146,6 +155,7 @@
             include(locate_template('Nota.php'));?>
             <div class="clearfix"></div>
         <?php get_template_part( "banners/home/desktop/HD-HM4"); ?>
+        <?php get_template_part( "banners/home/mobile/HM-HS6"); ?>
     </div>
     <div class="col-p">
         <?php get_template_part( "lo_mas_reciente"); ?>
@@ -177,7 +187,7 @@
 
 <?php
     get_template_part( "banners/home/desktop/HD-HL5");
-    get_template_part( "banners/home/mobile/banners/home/mobile/HM-HS7");
+    get_template_part( "banners/home/mobile/HM-HS7");
 ?>
 
 <?php get_footer() ?>

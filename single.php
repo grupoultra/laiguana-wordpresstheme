@@ -7,11 +7,13 @@
 <div class="margin-top-10">
     <div class="col-g">
     <?php get_template_part( "banners/nota/desktop/ND-HM1"); ?>
+    <?php get_template_part( "banners/nota/mobile/NM-HS2"); ?>
     <div class="articulo">
         <?php the_content(); ?>
     </div>
     <?php
         get_template_part( "banners/nota/desktop/ND-N1");
+        get_template_part( "banners/nota/mobile/NM-C1");
         get_template_part( "banners/nota/desktop/ND-HM2");
         get_template_part( "single_comments");
     ?>
@@ -29,6 +31,7 @@
 </div>
 <div class="clearfix"></div>
 <?php get_template_part( "banners/nota/desktop/ND-HL1"); ?>
+<?php get_template_part( "banners/nota/mobile/NM-HS3"); ?>
     <?php
 
         endwhile;

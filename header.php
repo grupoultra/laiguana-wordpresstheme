@@ -53,6 +53,7 @@
 	<?php
 		if(is_home()){
 			get_template_part( 'banners/home/desktop/HD-HB1' );
+			get_template_part( "banners/home/mobile/HM-C0");
 			get_template_part( "banners/home/desktop/HD-SR");
 			get_template_part( "banners/home/desktop/HD-SL");
 		} elseif (is_category()){

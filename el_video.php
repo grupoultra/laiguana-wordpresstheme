@@ -8,8 +8,10 @@
 <?php
     $aboutPosts = new WP_Query(array(
         'no_found_rows' => true,
-        'category_name' => 'el_video',
+        'category_name' => 'lo_mas_jot',
         'posts_per_page' => 1,
+		'orderby' => 'modified',
+		'order'   => 'DESC',
     ));
     if ($aboutPosts->have_posts()) : 
         while ($aboutPosts->have_posts()) : $aboutPosts->the_post();?> 

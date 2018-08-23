@@ -3,6 +3,8 @@
         'no_found_rows' => true,
         'category_name' => 'lo_mas_jot',
         'posts_per_page' => 5,
+		'orderby' => 'modified',
+		'order'   => 'DESC',
     ));
     if ($aboutPosts->have_posts()) : ?>
 

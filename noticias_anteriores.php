@@ -9,7 +9,7 @@
         'no_found_rows' => true,
         'category_name' => 'General',
         'posts_per_page' => 60,
-		'offset' => 22
+		'offset' => 20
     ));
     if ($aboutPosts->have_posts()) :
         $nota_index = 0;

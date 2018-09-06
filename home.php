@@ -36,7 +36,11 @@
 
 <div class="col-g">
     <?php
-        $amount = 4;
+        $category = 'C5';
+        include(locate_template('Nota.php'));
+        $category = 'C6';
+	include(locate_template('Nota.php'));
+        $amount = 2;
         $category = 'General';
         $modified = 'modified';
         $order = 'DESC';
@@ -75,7 +79,7 @@
             $category = 'General';
             $modified = 'modified';
             $order = 'DESC';
-            $offset = 4;
+            $offset = 2;
             include(locate_template('Nota.php'));
         ?>
 
@@ -106,7 +110,7 @@
             $category = 'General';
             $modified = 'modified';
             $order = 'DESC';
-            $offset = 10;
+            $offset = 8;
             include(locate_template('Nota.php'));
         ?>
 
@@ -149,7 +153,7 @@
             $category = 'General';
             $modified = 'modified';
             $order = 'DESC';
-            $offset = 16;
+            $offset = 14;
             include(locate_template('Nota.php'));?>
             <div class="clearfix"></div>
         <?php get_template_part( "banners/home/desktop/HD-HM4"); ?>

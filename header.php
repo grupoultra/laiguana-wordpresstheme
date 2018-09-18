@@ -46,6 +46,10 @@
 		  if(window.performance && typeof window.performance.mark == 'function')
 			{window.performance.mark('tbl_ic');}
 		</script>
+
+		<!--  Publicidad adplayer.pro en la nota  -->
+		<script async src="https://cdn.stat-rock.com/player.js"></script>
+		<script>(function(){var i='cucR_4s1gvK2_VYGVIE12ct7XnLnE0PT8uzmujZ4DZh9hlw6PlZV';document.write('<div id="'+i+'"></div>');(playerPro=window.playerPro||[]).push(i);})();</script>
 	</head>
 
 <body <?php body_class("body"); ?>>

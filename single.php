@@ -25,7 +25,7 @@
         get_template_part( "banners/nota/desktop/ND-NV1");
         get_template_part( "banners/nota/desktop/ND-V2");
         get_template_part( "banners/nota/desktop/ND-C1");
-        get_template_part( "lo_mas_polemico");
+        get_template_part( "lo_mas_leido");
     ?>
     </div>
 </div>

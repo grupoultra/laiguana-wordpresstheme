@@ -2,6 +2,7 @@
     <div class="articulo-titulo">
         <span>
             <?php the_title() ?>
+	     <?php echo wpb_get_post_views(get_the_ID()); ?>
         </span>
     </div>
 

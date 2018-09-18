@@ -52,7 +52,7 @@
 <div class="col-p">
     <?php
         get_template_part( "banners/home/desktop/HD-C1");
-        get_template_part( "lo_mas_polemico");
+        get_template_part( "lo_mas_leido");
     ?>
 </div>
 

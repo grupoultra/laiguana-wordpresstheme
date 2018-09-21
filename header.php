@@ -50,6 +50,10 @@
 		<!--  Publicidad adplayer.pro en la nota  -->
 		<script async src="https://cdn.stat-rock.com/player.js"></script>
 		<script>(function(){var i='cucR_4s1gvK2_VYGVIE12ct7XnLnE0PT8uzmujZ4DZh9hlw6PlZV';document.write('<div id="'+i+'"></div>');(playerPro=window.playerPro||[]).push(i);})();</script>
+
+		<!--  Publicidad latinon  -->
+		<ins data-revive-zoneid="2253" data-revive-id="1cc6fd924369584af6e3764ee37b0e18"></ins>
+		<script async src="//ads.latinongroup.com/delivery/asyncjs.php"></script>
 	</head>
 
 <body <?php body_class("body"); ?>>

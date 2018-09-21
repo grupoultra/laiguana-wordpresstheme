@@ -2,7 +2,6 @@
     <div class="articulo-titulo">
         <span>
             <?php the_title() ?>
-	     <?php echo wpb_get_post_views(get_the_ID()); ?>
         </span>
     </div>
 
@@ -10,6 +9,7 @@
         <div class="row">
             <div class="col-xs-12 col-md-4 text-center">
                 <?php echo get_the_date() ?>
+                <?php echo " - "; echo wpb_get_post_views(get_the_ID()); ?>
             </div>
 
             <div class="col-xs-6 col-md-2">

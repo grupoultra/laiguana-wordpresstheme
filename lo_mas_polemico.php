@@ -2,7 +2,9 @@
     $aboutPosts = new WP_Query(array(
         'no_found_rows' => true,
         'category_name' => 'lo_mas_polemico',
-        'posts_per_page' => 8,
+        'posts_per_page' => 8,       
+        'orderby' => 'modified',
+        'order' => 'DESC'
     ));
     if ($aboutPosts->have_posts()) : ?>
 

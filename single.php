@@ -12,7 +12,8 @@
         <?php the_content(); ?>
     </div>
     <?php
-        get_template_part( "banners/nota/desktop/ND-N1");
+        get_template_part( "banners/nota/desktop/ND-N1");        
+        get_template_part( "banners/nota/desktop/ND-P1");       
         get_template_part( "banners/nota/mobile/NM-C1");
         get_template_part( "banners/nota/desktop/ND-HM2");
         get_template_part( "single_comments");

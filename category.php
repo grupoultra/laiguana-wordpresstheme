@@ -3,8 +3,6 @@
     ?>
 
     <div class="margin-top-10">
-        <?php get_template_part( "banners/nota/desktop/ND-HM1"); ?>
-        <?php get_template_part( "banners/nota/mobile/NM-HS2"); ?>
         <div class="col-g">
             <?php if (have_posts()) : ?>
                 <div class="articulo-titulo">
@@ -49,7 +47,6 @@
             get_template_part( "banners/nota/desktop/ND-P1");       
             get_template_part( "banners/nota/mobile/NM-C1");
             get_template_part( "banners/nota/desktop/ND-HM2");
-            get_template_part( "single_comments");
         ?>
         <div class="col-p">
             <?php

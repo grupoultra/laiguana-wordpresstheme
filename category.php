@@ -41,9 +41,11 @@
                 echo '<p>No se encontraron artículos</p>';
             endif;
             ?>
+            <?php
+                get_template_part( "banners/nota/desktop/ND-N1");
+            ?>
         </div>
-        <?php
-            get_template_part( "banners/nota/desktop/ND-N1");        
+        <?php   
             get_template_part( "banners/nota/desktop/ND-P1");       
             get_template_part( "banners/nota/mobile/NM-C1");
             get_template_part( "banners/nota/desktop/ND-HM2");

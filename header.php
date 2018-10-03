@@ -65,9 +65,9 @@
 			get_template_part( "banners/home/desktop/HD-SL");
 		} elseif (is_category()){
 			get_template_part( "banners/category/desktop/CD-HB1");
-			get_template_part( "banners/nota/mobile/NM-C0");
-			get_template_part( "banners/nota/desktop/ND-SR");
-			get_template_part( "banners/nota/desktop/ND-SL");	
+			get_template_part( "banners/nota/mobile/CM-C0");
+			get_template_part( "banners/nota/desktop/CD-SR");
+			get_template_part( "banners/nota/desktop/CD-SL");	
 		} elseif (is_singular()){
 			get_template_part( 'banners/nota/desktop/ND-HB1' );
 			get_template_part( "banners/nota/mobile/NM-C0");

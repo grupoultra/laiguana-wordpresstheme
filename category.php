@@ -59,5 +59,5 @@
     </div>
 <div class="clearfix"></div>
 <?php get_template_part( "banners/category/desktop/CD-HL1"); ?>
-<?php get_template_part( "banners/category/mobile/CM-HS3"); ?>
+<?php get_template_part( "banners/category/mobile/CM-HS2"); ?>
 <?php get_footer() ?>

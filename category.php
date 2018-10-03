@@ -40,24 +40,24 @@
             endif;
             ?>
             <?php
-                get_template_part( "banners/nota/desktop/ND-N1");
+                get_template_part( "banners/category/desktop/CD-N1");
             ?>
         </div>
         <?php   
-            get_template_part( "banners/nota/desktop/ND-P1");       
+            get_template_part( "banners/category/desktop/CD-P1");       
         ?>
         <div class="col-p">
             <?php
                 $imagesLoMasLeido = 1;
-                get_template_part( "banners/nota/desktop/ND-NV1");
-		get_template_part( "banners/nota/desktop/ND-V2");
-		get_template_part( "banners/nota/desktop/ND-C1");
+                get_template_part( "banners/category/desktop/CD-NV1");
+		get_template_part( "banners/category/desktop/CD-V2");
+		get_template_part( "banners/category/desktop/CD-C1");
                 include(locate_template('lo_mas_leido.php'));
                 get_template_part( "lo_mas_polemico");
             ?>
         </div>
     </div>
 <div class="clearfix"></div>
-<?php get_template_part( "banners/nota/desktop/ND-HL1"); ?>
-<?php get_template_part( "banners/nota/mobile/NM-HS3"); ?>
+<?php get_template_part( "banners/category/desktop/CD-HL1"); ?>
+<?php get_template_part( "banners/category/mobile/CM-HS3"); ?>
 <?php get_footer() ?>
